@@ -1,0 +1,21 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "basic informational site with node.js",
+  "homepage": "https://github.com/petredemi/infosite#readme",
+  "bugs": {
+    "url": "https://github.com/petredemi/infosite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petredemi/infosite.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}

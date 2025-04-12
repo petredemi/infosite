@@ -1,6 +1,8 @@
 
 var http = require('http');
 var formidable = require('formidable');
+var nodemailer = require('nodemailer');
+
 
 http.createServer(function (req, res) {
   if (req.url == '/fileupload') {
@@ -18,3 +20,4 @@ http.createServer(function (req, res) {
     return res.end();
   }
 }).listen(8080);
+
